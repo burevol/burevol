@@ -89,6 +89,26 @@ ul {
     padding: 5px 5px 5px 15px;
 }
 
+.collapsible {
+    display: block;
+    border: 2px solid rgb(85,85,85);
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(222,224,223);
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
 .period {
     font-weight: 500;
 }

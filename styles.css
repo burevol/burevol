@@ -50,13 +50,13 @@ ul {
 .grid > :nth-child(5) img {
     max-height: 300px;
 }
-   
 
 .photo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .main-info {
     font-family: 'Roboto Slab', serif;
@@ -168,4 +168,83 @@ ul {
 
 .one-c {
     margin-left: 105%;
+}
+
+@media screen and (max-width: 900px) {
+    .grid > :nth-child(5) img {
+        max-height: 250px;
+    }   
+    
+    .main-info {
+        font-size: 2em;
+    }
+
+    .contacts {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    .grid {
+        grid-template-rows: 100px 250px auto;
+    }
+
+    .wrapper {
+        padding-left: 30px;
+    }
+
+    .about-me {
+        padding-left: 30px;;
+    }
+
+    .period {
+        font-size: 0.8em;
+    }
+
+    .duration {
+        font-size: 0.8em;    
+    }
+
+    .experience {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid > :nth-child(5) img {
+        max-height: 150px;
+    }  
+    
+    .main-info {
+        font-size: 1.5em;
+    }
+
+    .contacts {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .grid {
+        grid-template-rows: 100px 150px auto;
+    }
+
+    .wrapper {
+        padding-left: 15px;
+    }
+
+    .about-me {
+        padding-left: 15px;
+    }
+
+    .period {
+        font-size: 0.6em;
+    }
+
+    .duration {
+        font-size: 0.6em;    
+    }
+
+    .experience {
+        padding-left: 5px;
+    }
+
 }
